@@ -22,5 +22,7 @@ endif (MSVC)
 INCLUDE(cmake/Modules/Master.cmake)
 INCLUDE(cmake/TargetBuildSAAS.cmake)
 
+ConfigureShineSAAS()
+
 add_subdirectory(/home/lcausin/tmp//src)
 
